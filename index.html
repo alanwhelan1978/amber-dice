@@ -10,14 +10,41 @@
     <title>Amber Quiz</title>
 </head>
 <body>
-    <h1 class = "heading"><img class = "logo" src="assets/images/logoNew.png" alt="logo"> Amber Quiz</h1>
+    <h1 class = "heading"><img class = "logo" src="assets/images/logoNew.png" alt="logo">Amber Quiz</h1>
     
     <div class = "question-area">
-
+        <h2 class = "display-question">Question</h2>
     </div>
+        <div class  = "controls-area">
+            <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+            <label for="option-one" class="option" id="option-one-label"></label>
+        </div>
+    
     <div class = "score-area">
         <p class = "score-area">Correct Answers <span id = "score-correct">0</span></p>
         <p class = "score-area"> Incorrect Answers<span id = "score-incorrect">0</span></p>
+        
+        <span>
+            <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+            <label for="option-two" class="option" id="option-two-label"></label>
+        </span>
+
+
+        <span>
+            <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+            <label for="option-three" class="option" id="option-three-label"></label>
+        </span>
+
+
+        <span>
+            <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+            <label for="option-four" class="option" id="option-four-label"></label>
+        </span>
+
+        <span>
+            <input type="submit" id="submit" name="submit" class="submit" value="submit" />
+            <label for="submit" class="submit" id="submit"></label>
+        </span>
 
     </div>
 
