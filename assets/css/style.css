@@ -9,11 +9,15 @@ body {
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding: 50px;
+    padding-right: 450px;
 }
 
 .logo {
-    height: 300px;
+    height: 150px;
+    text-align: match-parent;
+    float: left;
 }
 
 /* --------- Game layout */
