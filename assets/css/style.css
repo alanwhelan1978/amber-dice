@@ -2,23 +2,25 @@
 body {
     font-family: Mochiy Pop P One, sans-serif;
     background: #D3D3D3;
+    height: 800px;
     text-align: center;
+    
 }
 
-/* --------- Heading */
+/* --------- Heading & Logo*/
+
+.logo {
+    height: 10rem;
+    width: 20rem;
+    padding: 1rem;  
+}
 
 .heading {
     text-align: center;
     font-size: 2rem;
-    padding: 50px;
-    padding-right: 450px;
+    padding: 1rem;
 }
 
-.logo {
-    height: 150px;
-    text-align: match-parent;
-    float: left;
-}
 
 /* --------- Game layout */
 
@@ -31,16 +33,14 @@ body {
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 1rem;
 }
 
 .controls-area {
     background-color: #8b8680;
     box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
+    height: 450px;
+    width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
