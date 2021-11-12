@@ -1,0 +1,43 @@
+/* --------- Global style */
+body {
+    font-family: Mochiy Pop P One, sans-serif;
+    background: #D3D3D3;
+    text-align: center;
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 300px;
+}
+
+/* --------- Game layout */
+
+.question-area {
+    background-color: #6e90a2;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 250px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.controls-area {
+    background-color: #8b8680;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
