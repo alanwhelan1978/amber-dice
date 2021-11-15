@@ -2,7 +2,7 @@
 body {
     font-family: Mochiy Pop P One, sans-serif;
     background: #D3D3D3;
-    height: 800px;
+    background-image: url(../images/Amber-Springs-Hotel.png);
     text-align: center;
     
 }
@@ -12,7 +12,7 @@ body {
 .logo {
     height: 10rem;
     width: 20rem;
-    padding: 1rem;  
+    padding: 1rem;
 }
 
 .heading {
