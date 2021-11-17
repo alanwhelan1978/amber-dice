@@ -1,4 +1,4 @@
-//these are the questions for the quiz  
+//These are the questions for the quiz  
 
 const questions = [
     {
