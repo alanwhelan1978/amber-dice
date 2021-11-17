@@ -216,12 +216,12 @@ const questions = [
     },
 
     {
-        question: 'Which male Disney character is able to fly and refuses to grow up?'
-        optionA: 
-        optionB: 
-        optionC: 
-        optionD: 
-        correctOption: 'Peter Pan'
+        question: 'Which male Disney character is able to fly and refuses to grow up?',
+        optionA: 'Dumbo',
+        optionB: 'Elsa',
+        optionC: 'Peter Pan',
+        optionD: 'Santa',
+        correctOption: 'Peter Pan',
     },
 
     {
