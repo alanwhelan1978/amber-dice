@@ -1,3 +1,5 @@
+//these are the questions for the quiz  
+
 const questions = [
     {
         question: 'Which superhero has an assistant called Robin?',
@@ -243,3 +245,16 @@ const questions = [
     }
 
 ]
+
+let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
+
+function handleQuestions() { 
+    //function to shuffle and push 8 questions to shuffledQuestions array
+//app would be dealing with 8 questions per session
+    while (shuffledQuestions.length <= 7) {
+        const random = questions[Math.floor(Math.random() * questions.length)]
+        if (!shuffledQuestions.includes(random)) {
+            shuffledQuestions.push(random)
+        }
+    }
+}
