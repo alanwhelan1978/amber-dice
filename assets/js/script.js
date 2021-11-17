@@ -245,12 +245,12 @@ const questions = [
     }
 
 ]
-  
+//empty array to hold shuffled selected questions out of all available questions
   main();
-  let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions
+  let shuffledQuestions = [];
   
+//function to shuffle and push 8 questions to shuffledQuestions array  
   function handleQuestions() { 
-      //function to shuffle and push 8 questions to shuffledQuestions array
       while (shuffledQuestions.length <= 7) {
           const random = questions[Math.floor(Math.random() * questions.length)];
           if (!shuffledQuestions.includes(random)) {
