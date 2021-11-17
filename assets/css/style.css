@@ -33,6 +33,7 @@ h1 {
     background-color: #6e90a2;
     box-sizing: border-box;
     width: 85%;
+    opacity: 90%;
     height: 65vh;
     max-height: 250px;
     max-width: 830px;
@@ -42,7 +43,7 @@ h1 {
 }
 
 .controls-area {
-    background-color: #8b8680;
+    background-color: #9b9ea2;
     box-sizing: border-box;
     float: right;
     position: absolute;
